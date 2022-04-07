@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aula.MainPage">
+
+    <StackLayout>
+        <Label x:Name="lblNumero" Text="Digite um número:" TextColor="#000000" FontSize="16" />
+        <Entry x:Name="txtNumero" Keyboard="Numeric" Placeholder="Insira o número aqui!" BackgroundColor="#FFFFFF"/>
+        
+        <Label x:Name="lblOutroNumero" Text="Digite um número:" TextColor="#000000" FontSize="16"/>
+        <Entry x:Name="txtOutroNumero" Keyboard="Numeric" Placeholder="Insira o número aqui!" BackgroundColor="#FFFFFF"/>
+        
+        <Button x:Name="btnSomar" Text="Somar" Clicked="btnSomar_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+        <Button x:Name="btnSubtrair" Text="Subtrair" Clicked="btnSubtrair_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+        <Button x:Name="btnMultiplicar" Text="Multiplicar" Clicked="btnMultiplicar_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+        <Button x:Name="btnDivisao" Text="Divisao" Clicked="btnDivisao_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+        <Button x:Name="btnAreaRetangulo" Text="Area Retangulo" Clicked="btnAreaRetangulo_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+        <Button x:Name="btnAreaTriangulo" Text="Area Triangulo" Clicked="btnAreaTriangulo_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+
+    </StackLayout>
+
+</ContentPage>
